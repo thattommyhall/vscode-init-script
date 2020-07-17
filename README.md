@@ -31,6 +31,15 @@ export function init(context: vscode.ExtensionContext) {
 }
 ```
 
+
+The recommended way to install the vscode dependency  is using `npm` in the folder where you keep your `init.ts`
+script:
+
+```sh
+$ cd ~/.config/Code/User # or equivalent
+$ npm add vscode
+```
+
 ## Licence
 
 Copyright 2019 Bodil Stokke
